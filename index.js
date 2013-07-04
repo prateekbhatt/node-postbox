@@ -5,7 +5,7 @@ module.exports = function () {
   var regex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi;
 
   function _getEmails (text) {
-    return text.match(regex);
+    return text ? text.match(regex) : null;
   };
 
   function _hasEmail (text) {

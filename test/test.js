@@ -12,8 +12,12 @@ describe('postbox', function(){
       should.equal(postbox.getEmails(text), null);
     });
 
+    it('should return null if the input is null', function(){
+      should.equal(postbox.getEmails(), null);
+    });
+
     it('should return an array of emails from text', function (){
-      var text = 'john.doe@example.com,the child is grown, the dream is gone;pop@example.co'
+      var text = '-. john.doe@example.com,the child is grown, the dream is gone;pop@example.co'
         , output = postbox.getEmails(text)
         ;
       should.equal(output[0], 'john.doe@example.com');

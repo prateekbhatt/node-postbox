@@ -6,7 +6,7 @@
     "email": "prattbhatt@gmail.com"
   },
   "homepage": "https://github.com/prateekbhatt/node-postbox",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/prateekbhatt/node-postbox.git"
