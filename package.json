@@ -17,6 +17,11 @@
   "engines": {
     "node": ">0.8"
   },
+  "keywords": [
+    "email",
+    "validate",
+    "extract"
+  ],
   "dependencies": {},
   "devDependencies": {
     "mocha": "~1.12.0",
